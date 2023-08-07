@@ -1,0 +1,11 @@
+$(document).ready(function() {
+  // Select the element you want to add the event listener to
+  const myElement = $('.my-element');
+
+  // Add a click event listener
+  myElement.click(function() {
+    // Manipulate the UI here
+    $(this).css('background-color', 'blue');
+    console.log('Element clicked');
+  });
+});
